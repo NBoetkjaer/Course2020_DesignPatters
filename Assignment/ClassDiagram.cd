@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dice" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAACAAAAAAAAAAAAQAAAAAAAEAAAA=</HashCode>
+      <FileName>Dice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDice">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IBoard">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Board" Collapsed="true">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAEADAAAAAgAAAAAAAAIIAAgQAAABAAACIAAAA=</HashCode>
+      <FileName>Board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLogic">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~GameLogic" Hidden="true" />
+      <Method Name="GameLogic" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAhwAAAAIAAQECAAABAAAAABAAAwCAAAAAAA=</HashCode>
+      <FileName>GameLogic.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_board" />
+      <Field Name="m_dice" />
+      <Field Name="m_players" />
+      <Field Name="m_gameView" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Link">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAABAAgCAAAAAAQgAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A0IAEIEqCrBsEABAAOMIAAAyAAUEQBIAhQkwggAFUkI=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.12.25827\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOutputter">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIBAQAAEAAAAAA=</HashCode>
+      <FileName>GameOutputter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGameOutputter">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAAAAEAAAAAA=</HashCode>
+      <FileName>Interfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IColorSelector">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColorSelector" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAoAAAAAAAAAAAAAAAIIBCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColorSelector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
